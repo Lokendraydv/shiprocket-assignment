@@ -19,8 +19,7 @@ To run this project locally, you need to have **Python 3.10+** installed. Follow
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/address-classification.git
-cd address-classification
+git clone git@github.com:Lokendraydv/shiprocket-assignment.git
 ```
 
 ### 2. Create a Virtual Environment
