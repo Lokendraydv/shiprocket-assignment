@@ -35,3 +35,20 @@ git clone git@github.com:Lokendraydv/shiprocket-assignment.git
 
 ### 4. Run the Flask Application
 - python3 server.py
+
+### 5. Deployment
+- We have deployed our code is on Ec2.
+Here is the public end points and their payloads:-
+
+**prediction**
+endpoint:- "3.109.155.98:5000/classify"
+payload:- 
+{
+    "Address": "405,aspiresoftserv",
+    "City": "ahmedabad",
+    "State": "gujarat",
+    "Pincode": "587886"
+}
+
+Model_training;- 3.109.155.98:5000/train
+payload:- 
