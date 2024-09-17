@@ -37,11 +37,11 @@ git clone git@github.com:Lokendraydv/shiprocket-assignment.git
 - python3 server.py
 
 ### 5. Deployment
-- We have deployed our code is on Ec2.
+- We have deployed our code on Ec2.
 Here is the public end points and their payloads:-
 
 **prediction**
-endpoint:- "3.109.155.98:5000/classify"
+endpoint:- "3.109.58.9:5000/classify" 
 payload:- 
 {
     "Address": "405,aspiresoftserv",
@@ -51,7 +51,7 @@ payload:-
 }
 
 **Model Training**
-Model_training;- 3.109.155.98:5000/train
+Model_training;- 3.109.58.9:5000/train
 payload:- 
 1. In Body select form-data, create one key with "file" name, select CSV file.
 2. Then, In headers insdie key select "content-type" and in value it should be "multipart/form-data".
