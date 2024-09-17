@@ -50,5 +50,8 @@ payload:-
     "Pincode": "587886"
 }
 
+**Model Training**
 Model_training;- 3.109.155.98:5000/train
 payload:- 
+1. In Body select form-data, create one key with "file" name, select CSV file.
+2. Then, In headers insdie key select "content-type" and in value it should be "multipart/form-data".
