@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.wheel
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Pyenv
+.python-version
+
+# Flask specific files
+instance/
+.cache
+
+# Logs and database files
+*.log
+*.sqlite3
+
+# Environment variables
+.env
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# PyCharm project files
+.idea/
+
+# VSCode project files
+.vscode/
+
+# Docker files
+docker-compose.yml
+Dockerfile
+
+# Machine learning / model files
+# *.pkl
+# *.h5
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+*.old
+*.orig
+*.save
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# CSVs or datasets (if temporary)
+# *.csv
